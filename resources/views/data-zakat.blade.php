@@ -60,7 +60,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="{{route('home')}}" class="nav-link">
                                 <i class="nav-icon fas fa-home"></i>
                                 <p>
                                     Home
@@ -183,7 +183,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 Anything you want
             </div>
             <!-- Default to the left -->
-            <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+            <strong>Copyright &copy; 2024 <a href="https://adminlte.io">SMK Batik Perbaik</a>.</strong> All rights reserved.
         </footer>
     </div>
     <!-- ./wrapper -->
