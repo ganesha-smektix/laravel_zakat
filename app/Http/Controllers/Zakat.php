@@ -30,7 +30,7 @@ class Zakat extends Controller
     {
         $zakat = new ZakatExport;
         $zakat->id = $id;
-        return Excel::download($zakat, 'test.xlsx');
+        return Excel::download($zakat, $id . '.xlsx');
     }
     public function home()
     {
